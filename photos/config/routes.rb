@@ -1,4 +1,10 @@
 Photos::Application.routes.draw do
+  resources :categories
+
+  resources :slideshows
+
+  resources :slides
+
   resources :photos
 
   # The priority is based upon order of creation:

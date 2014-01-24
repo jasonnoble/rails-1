@@ -1,0 +1,9 @@
+<h1>Zmiana kategorii</h1>
+<% form_for(@category) do |f| %>
+<%= render :partial => 'form', :locals => { :f => f } %>
+  <p>
+    <%= f.submit "Modyfikuj" %>
+  </p>
+<% end %>
+<%= link_to 'Pokaz', @category %> |
+<%= link_to 'Wyswietl', categories_path %>

@@ -1,0 +1,45 @@
+photo_1:
+ id: 1
+ filename: train.jpg
+ thumbnail: train_t.jpg
+ description: Tym jade do pracy
+photo_2:
+ id: 2
+ filename: train.jpg
+ thumbnail: train_t.jpg
+ description: Tym jade do pracy
+photo_3:
+ id: 3
+ filename: train.jpg
+ thumbnail: train_t.jpg
+ description: Tym jade do pracy
+photo_4:
+ id: 4
+ filename: train.jpg
+ thumbnail: train_t.jpg
+ description: Tym jade do pracy
+photo_5:
+ id: 5
+ filename: train.jpg
+ thumbnail: train_t.jpg
+ description: Tym jade do pracy
+photo_6:
+ id: 6
+ filename: train.jpg
+ thumbnail: train_t.jpg
+ description: Tym jade do pracy
+photo_7:
+ id: 7
+ filename: train.jpg
+ thumbnail: train_t.jpg
+ description: Tym jade do pracy
+photo_8:
+ id: 8
+ filename: train.jpg
+ thumbnail: train_t.jpg
+ description: Tym jade do pracy
+photo_9:
+ id: 9
+ filename: train.jpg
+ thumbnail: train_t.jpg
+ description: Tym jade do pracy

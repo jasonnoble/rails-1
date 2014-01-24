@@ -1,4 +1,6 @@
 Chapter::Application.routes.draw do
+  get "greetings/index"
+
   get "greeting/index"
 
   # The priority is based upon order of creation:

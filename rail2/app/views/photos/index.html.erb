@@ -1,0 +1,13 @@
+<h1>Lista fotografii</h1>
+
+<table>
+<% for photo in @photos %>
+	<tr>
+		<td><%= link_to(image_tag("photos/#{photo.thumbnail}", :size => '75x56', :border => 1, :id => 'thumbnail'),photo) %> </td>
+		<td><%= h photo.filename %></td>
+		<td><%= link_to 'tu mnie usuwasz', photo, :confirm => 'Czy aby na pewno?', :method => :delete %></td>
+	</tr>
+<% end %>
+</table>
+<br />
+<%= link_to 'Nowe zdjezie', new_photo_path %>
