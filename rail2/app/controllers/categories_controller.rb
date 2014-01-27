@@ -1,10 +1,10 @@
 class CategoriesController < ApplicationController
   before_action :set_category, only: [:show, :edit, :update, :destroy]
+  before_action :load_categories
 
   # GET /categories
   # GET /categories.json
   def index
-    @all_categories = Category.find(:all, :order =>"name")
   end
 
   # GET /categories/1
@@ -73,5 +73,9 @@ class CategoriesController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def category_params
       params.require(:category).permit(:parent_id, :name)
+    end
+  
+    def load_categories
+      @all_categories = Category.find(:all, :order =>"name")
     end
 end
